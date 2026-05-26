@@ -11,3 +11,35 @@ button:hover{opacity:0.9;}
 table{width:100%; border-collapse:collapse; margin-top: 1rem}
 th, td{ border-bottom: 1px solid #ddd; padding:10px; text-align:left;}
 
+.banner{
+  background: linear-gradient(rgba(0,85,153,0.8), rgba(0,85,153,0.8)),Url('imagens\senai.png');
+  background-size:cover;
+  calor: white;
+  padding: 30px 20px;
+  text-aling:center;
+  margin-bottom: 10px;
+}
+
+.banner h1{
+  magin: 0;
+  font-size:2.5rem;
+}
+
+/*Estilo do Rodapé */
+.rodapé{
+  background-color:#333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;/*Garante distância do conteúdo superior*/
+  width:100%;
+}
+
+.container-rodape p {
+  margin:0.9em;
+  opacity:o;
+}
+
+.container{
+   flex:1;/*Faz o conteúdo principal esticar e empurrar o rodapé para baixo*/
+}
